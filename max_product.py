@@ -8,8 +8,7 @@ def max_product(sequence: str | int, distance: str | int) -> int:
         int(sequence)
         distance = int(distance)
     except:
-        raise ValueError("Los dos argumentos han de ser números enteros")
-    
+        raise ValueError("Los dos argumentos han de ser números enteros") 
     if isinstance(sequence, int):
         sequence = str(sequence)
     if distance >= len(str(sequence)):
