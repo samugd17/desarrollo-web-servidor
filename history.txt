@@ -1,0 +1,230 @@
+    1  sudo ls
+    2  su
+    3  su -
+    4  ip a
+    5  sudo ls
+    6  ip a
+    7  sudo adduser
+    8  sudo adduser profe
+    9  sudo usermod -aG sudo profe
+   10  sudo poweroff
+   11  vi .vimrc
+   12  sudo apt install vim
+   13  vi .vimrc
+   14  vi hola
+   15  vi .vimrc 
+   16  ll
+   17  ls
+   18  vi .bashrc 
+   19  bind -v | grep bracketed
+   20  bind 'set enable-bracketed-paste off'
+   21  bind -v | grep bracketed
+   22  sudo reboot
+   23  exit
+   24  sudo apt install -y build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget libbz2-dev
+   25  ps aux | grep apt
+   26  sudo kill -9 1593 1594 1594
+   27  vi .bashrc 
+   28  source .bashrc
+   29  curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+   30  sudo apt install -y curl git tree xclip fonts-powerline fonts-firacode psmisc zip fonts-noto-color-emoji
+   31  curl -fLo ~/.vim/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+   32  curl -fLo ~/.vimrc https://raw.githubusercontent.com/sdelquin/pro/main/ut0/files/.vimrc
+   33  cat .vimrc 
+   34  vi .vimrc 
+   35  vi +'PlugInstall --sync' +qa
+   36  vi .vimrc 
+   37  sudo -- sh -c "ln -sf $HOME/.vimrc /root/.vimrc; ln -sf $HOME/.vim /root/.vim"
+   38  vi .bashrc 
+   39  source .bashrc
+   40  take hola
+   41  cd
+   42  rm -fr hola
+   43  copy .vimrc 
+   44  sudo apt install -y materia-gtk-theme papirus-icon-theme
+   45  sudo reboot
+   46  ll
+   47  pyenv --version
+   48  pyenv install -l
+   49  pyenv install -l | grep 3.11
+   50  pyenv install 3.11.5
+   51  sudo apt install tk-devel
+   52  sudo apt search tk
+   53  sudo apt-get search tk
+   54  sudo apt search tk
+   55  sudo apt search tk | grep -i tk
+   56  sudo apt install tk-dev
+   57  sudo apt install liblzma-dev
+   58  pyenv install 3.11.5
+   59  pyenv global 3.11.5
+   60  exit
+   61  python --version
+   62  pip --version
+   63  python -m venv hola
+   64  source hola/bin/activate
+   65  python --version
+   66  pip install requests
+   67  pip install django
+   68  pip install ipython
+   69  deactivate 
+   70  ll
+   71  tree
+   72  rm -fr hola
+   73  cd .pyenv/
+   74  ll
+   75  cd versions/
+   76  ll
+   77  cd
+   78  curl -LO https://go.microsoft.com/fwlink/?LinkID=760868
+   79  curl -LO https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
+   80  ps aux | grep -i curl
+   81  ll
+   82  rm download 
+   83  curl -fLo /tmp/vscode.deb https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
+   84  ps aux | grep -i curl
+   85  curl -fLo /tmp/vscode.deb "https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64"
+   86  file /tmp/vscode.deb 
+   87  sudo apt install -y /tmp/vscode.deb 
+   88  exit
+   89  pyenv shell 3.11.5
+   90  pip uninstall mypy mypy-extensions typing-extensions
+   91  python -m venv .mypy --prompt mypy
+   92  cd .mypy/
+   93  source bin/activate
+   94  pip install mypy
+   95  cd bin
+   96  ./mypy --version
+   97  deactivate 
+   98  cd
+   99  ll
+  100  cd hola
+  101  ll
+  102  e
+  103  code .
+  104  cd
+  105  cd .mypy/bin/
+  106  readlink -f mypy
+  107  cd
+  108  rm -fr hola
+  109  ll
+  110  vi .bashrc 
+  111  source .bashrc
+  112  ip a
+  113  exit
+  114  whoami
+  115  python --version
+  116  exit
+  117  ll
+  118  take hola
+  119  pyenv virtualenv
+  120  pyenv virtualenv hola
+  121  echo hola > .python-version
+  122  cd
+  123  pyenv virtualenv-delete hola
+  124  rm -fr hola
+  125  ll
+  126  lla
+  127  rm .xsession-errors.old 
+  128  ll
+  129  lla
+  130  exit
+  131  just vamos 
+  132  exit
+  133  whoami
+  134  exit
+  135  ip a
+  136  sudo visudo
+  137  sudo apt update
+  138  sudo apt install postgresql postgresql-contrib
+  139  sudo apt install redis
+  140  redis-cli
+  141  curl http://amy/daw/2daw/dsw/setup.sh | bash -s dsw
+  142  passwd
+  143  mkdir -p ~/.local/bin
+  144  ln -s /usr/bin/batcat ~/.local/bin/bat
+  145  mkdir -p ~/.local/bin
+  146  ln -s /usr/bin/batcat ~/.local/bin/bat
+  147  bat --version
+  148  cd repositorios/
+  149  code .
+  150  bat --version
+  151  clear
+  152  cd
+  153  vim
+  154  git clone https://github.com/samugd17/dpl_samuel
+  155  p
+  156  pyenv versions
+  157  git add .
+  158  cd dpl_samuel/
+  159  git add .
+  160  git commit -m "3/4 README done"
+  161  git config --global user.name samugd17
+  162  git config --global user.email samugd17@gmail.com
+  163  git commit -m "3/4 README done"
+  164  git add .
+  165  git commit -m "3/4 README done"
+  166  git push
+  167  git status
+  168  git add .
+  169  git commit -m "3/4 README done"
+  170  git push
+  171  ls
+  172  cd Descargas/
+  173  ls
+  174  vi nose-v1.py 
+  175  ls
+  176  vi nose-v1.py
+  177  cmp nose-v1.py nose-v2.py && echo '¡IGUALES!'
+  178  vi nose-v1.py
+  179  cmp nose-v1.py nose-v2.py && echo '¡IGUALES!'
+  180  vi nose-v1.py
+  181  cmp nose-v1.py nose-v2.py && echo '¡IGUALES!'
+  182  vi nose-v1.py
+  183  cmp nose-v1.py nose-v2.py && echo '¡IGUALES!'
+  184  vi nose-v1.py
+  185  cmp nose-v1.py nose-v2.py && echo '¡IGUALES!'
+  186  vi nose-v1.py
+  187  cmp nose-v1.py nose-v2.py && echo '¡IGUALES!'
+  188  vi nose-v1.py
+  189  cmp nose-v1.py nose-v2.py && echo '¡IGUALES!'
+  190  vi nose-v1.py
+  191  cmp nose-v1.py nose-v2.py && echo '¡IGUALES!'
+  192  vi nose-v1.py
+  193  cmp nose-v1.py nose-v2.py && echo '¡IGUALES!'
+  194  vi nose-v1.py
+  195  cd Descargas/
+  196  vi nose-v2.py 
+  197  ipython
+  198  ls
+  199  cd ds
+  200  cd dsw
+  201  ls
+  202  pyenv shell 3.11.5
+  203  pyenv shell 3.11.5
+  204  clear
+  205  mkdir mysite
+  206  git fetch
+  207  git pul
+  208  git pull
+  209  mkdir mysite
+  210  cd mysite/
+  211  python -m venv .venv --prompt mysite
+  212  source .venv/bin/activate
+  213  pip install django
+  214  django-admin startproject .
+  215  django-admin startproject mysite .
+  216  python manage.py migrate
+  217  python manage.py runserver
+  218  e
+  219  vi justfile
+  220  just runserver 
+  221  history
+  222  vi justfile
+  223  just startapp blog
+  224  just -l
+  225  cd blog
+  226  source /home/alu/repositorios/desarrollo-web-servidor/mysite/.venv/bin/activate
+  227  history
+  228  cd ..
+  229  deactivate .venv
+  230  history > history.txt
