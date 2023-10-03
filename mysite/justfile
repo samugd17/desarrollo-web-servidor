@@ -2,8 +2,8 @@ shell:
     python manage.py shell
 
 makemigrations app:
-    python manage.py makemigrations app
-    
+    python manage.py makemigrations {{ app }}
+
 migrate:
     python manage.py migrate
 
@@ -12,5 +12,8 @@ runserver:
 
 startapp app:
     python manage.py startapp {{ app }}
+
+createsuperuser:
+    python manage.py createsuperuser
 
 
